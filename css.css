@@ -1,0 +1,17 @@
+.navmenu{width: 1200px; height: 40px; background-color: green;}
+.header h1{font-size:  60px; color: navy; line-height: 100px; margin: 0px; padding: 0px; text-shadow: 2px 2px tomato;}
+.navmenu a{display: inline-block; color: white;background-color: green; text-decoration: none;font-weight: bold;text-transform: uppercase; line-height:40px; margin: 0px; padding: 0px 30px; }
+.navmenu a:hover{background-color: red; color: yellow; transition: 2s}
+.navmenu a.active{background-color: red;}
+.rightbar{width: 300px; height: auto; float: left;}
+
+@media only screen and (max-width: 600px) {
+.navmenu {width: 600px; height: auto;}
+  .navmenu a{width: 600px; height: auto;}
+  .rightbar{width: 600px; height: auto;}
+
+
+@media only screen and (max-width: 600px) {
+.navmenu {width: 600px; height: auto;}
+  .navmenu a{width: 600px; height: auto;}
+}
